@@ -1,8 +1,10 @@
+'use client';
 
-export default function Home() {
-  return (
-    <div className="">
+import LandingPageComp from '@/components/pageComponents/landingPage';
+import React from 'react';
 
-    </div>
-  );
-}
+const LandingPage: React.FC = () => {
+  return <LandingPageComp />;
+};
+
+export default LandingPage;
