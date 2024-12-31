@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'landing-page': "url('/assets/images/landing-page-background2.jpg')"
+      }
     },
   },
   plugins: [],
