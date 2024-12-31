@@ -1,5 +1,5 @@
 import React from 'react';
-import LocationCards from '../utils/locationCards';
+import LocationCards from '../../utils/locationCards';
 import { useRouter } from 'next/navigation';
 
 const LandingPageComp: React.FC = () => {
@@ -39,7 +39,7 @@ const LandingPageComp: React.FC = () => {
                     </div>
                     <div className='w-full flex justify-center items-center pt-[25px]'>
                         <input type="text" className='p-2 w-[350px] text-black' />
-                        <button onClick={() => router.push('/')} className='bg-red-600 text-white flex justify-center items-center p-2'>Search</button>
+                        <button onClick={() => router.push('/mainPage')} className='bg-red-600 text-white flex justify-center items-center p-2'>Search</button>
                     </div>
                 </div>
             </div>
